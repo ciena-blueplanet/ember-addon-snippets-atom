@@ -2,7 +2,7 @@
 
 Ember addon snippets for [Atom](http://atom.io/).
 
-### Adding Snippets to your ember addons
+### Adding snippets to your ember addons
 
 1. Create a `snippets` folder at the root of your ember project.
 2. Create a `snippets.json` file inside the `snippets` folder.
@@ -27,4 +27,13 @@ Ember addon snippets for [Atom](http://atom.io/).
   ...
 }
 ```
+
+### Using the snippets in Atom
+
+1. Install the package with `apm install ember-addon-snippets` or through the atom preferences panel.
+2. Note that there are three ways to trigger the snippets refreshal. I.e there are three ways to make the package fetch the snippets from your opened project's addons.
+  * `ctrl-alt-e`
+  * `npm install` (Only works if it creates or modifies a `node_modules/ember-*/snippets/snippets.json`  )
+  * restart atom
+
 
