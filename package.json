@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "Ember addon snippets for Atom.",
   "keywords": [],
-  "repository": "https://github.com/atom/ember-addon-snippets-atom",
+  "repository": "https://github.com/ciena-blueplanet/ember-addon-snippets-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
